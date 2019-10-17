@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "createfunction",
+            "Effect": "Allow",
+            "Action": [
+                "lambda:CreateFunction",
+                "s3:CreateBucket",
+                "ec2:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
